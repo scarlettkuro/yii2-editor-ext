@@ -1,34 +1,13 @@
 {
-    // название пакета
-    "name": "yiisoft/yii2-imagine",
+    "name": "a.komarov/yii2-editor-ext",
 
-    // тип пакета
     "type": "yii2-extension",
 
-    "description": "The Imagine integration for the Yii framework",
-    "keywords": ["yii2", "imagine", "image", "helper"],
+    "description": "Extension for Tree Editor",
     "license": "BSD-3-Clause",
-    "support": {
-        "issues": "https://github.com/yiisoft/yii2/issues?labels=ext%3Aimagine",
-        "forum": "http://www.yiiframework.com/forum/",
-        "wiki": "http://www.yiiframework.com/wiki/",
-        "irc": "irc://irc.freenode.net/yii",
-        "source": "https://github.com/yiisoft/yii2"
-    },
-    "authors": [
-        {
-            "name": "Antonio Ramirez",
-            "email": "amigo.cobos@gmail.com"
-        }
-    ],
-
-    // зависимости пакета
     "require": {
-        "yiisoft/yii2": "*",
-        "imagine/imagine": "v0.5.0"
+        "yiisoft/yii2": "*"
     },
-
-    // указание автозагрузчика классов
     "autoload": {
         "psr-4": {
             "yii\\imagine\\": ""
