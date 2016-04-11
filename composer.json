@@ -1,17 +1,14 @@
 {
-    "name": "komarov/yii2-editor-ext",
-    "version": "1.0.0",
-
+    "name": "fedemottar/yii2-awr",
+    "description": "This extension for the Yii2 framework",
     "type": "yii2-extension",
-
-    "description": "Extension for Tree Editor",
-    "license": "BSD-3-Clause",
+    "minimum-stability": "stable",
     "require": {
-        "yiisoft/yii2": "*"
+        "yiisoft/yii2": "2.*"
     },
     "autoload": {
         "psr-4": {
-            "yii\\editor\\": ""
+            "fedemottar\\awr\\": ""
         }
     }
 }
