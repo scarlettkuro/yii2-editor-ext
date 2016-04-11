@@ -6,6 +6,7 @@
     "require": {
         "yiisoft/yii2": "2.*"
     },
+    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "fedemottar\\awr\\": ""
